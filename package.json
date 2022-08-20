@@ -1,0 +1,14 @@
+{
+  "name": "@tksst/lib-demo-esm",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "repository": "github:tksst/javascript-lib-demo-esm.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "type": "module",
+  "exports": {
+    "import": "./index.js"
+  }
+}
