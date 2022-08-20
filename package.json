@@ -1,6 +1,6 @@
 {
   "name": "@tksst-gh/lib-demo-esm",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "license": "Apache-2.0",
   "repository": "github:tksst-gh/javascript-lib-demo-esm.git",
   "publishConfig": {
@@ -8,9 +8,7 @@
     "access": "public"
   },
   "type": "module",
-  "exports": {
-    "import": "./dist/index.js"
-  },
+  "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "dependencies": {
     "@tksst/eslint-config": "2.3.1"
